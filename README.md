@@ -35,8 +35,8 @@ Data were collected using Delsys Trigno wearable sensors, providing:
 The dataset consists of time-synchronised EMG and IMU signals labelled by performed
 gesture.
 
-> ⚠️ **Note:** The full dataset is not included in this repository to adhere to University Ethics and Regulations
-> data-sharing considerations.
+> ⚠️ **Note:** The dataset is not included in this repository in order to comply with
+> University ethics and data protection regulations.
 
 ---
 
