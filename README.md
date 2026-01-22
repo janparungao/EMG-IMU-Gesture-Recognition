@@ -35,7 +35,7 @@ Data were collected using Delsys Trigno wearable sensors, providing:
 The dataset consists of time-synchronised EMG and IMU signals labelled by performed
 gesture.
 
-> ⚠️ **Note:** The full dataset is not included in this repository due to size and
+> ⚠️ **Note:** The full dataset is not included in this repository to adhere to University Ethics and Regulations
 > data-sharing considerations.
 
 ---
@@ -82,8 +82,23 @@ Evaluation metrics include:
 
 ---
 
-## Usage
+## Results
 
-### Training
-```bash
-python train.py
+The results demonstrate that combining EMG and IMU information improves gesture
+recognition performance compared to unimodal approaches. This supports the hypothesis
+that muscle activation and kinematic data provide complementary information for gesture
+classification.
+
+An example confusion matrix from the fused EMG–IMU model is shown below:
+
+<img width="1327" height="1181" alt="confusion_matrix" src="https://github.com/user-attachments/assets/299038dd-17af-4bc3-910a-88bac37dd7ab" />
+
+---
+
+## Future Work
+
+Future works include:
+- Real-time gesture recognition using streaming EMG–IMU data
+- Online inference and latency optimisation for real-time deployment
+- Evaluation on a larger and more diverse subject pool
+- Integration with robotic or assistive systems for closed-loop control
